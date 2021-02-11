@@ -23,3 +23,12 @@ script:
 branches:
   only:
     - master
+<<<<<<< HEAD
+=======
+notifications:
+  email:
+    recipients:
+      - mgbastechnology@gmail.com
+    on_success: never 
+    on_failure: always
+>>>>>>> desarrollo
