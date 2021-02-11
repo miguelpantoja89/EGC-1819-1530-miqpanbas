@@ -22,6 +22,11 @@ script:
 branches:
   only:
     - master
+deploy:
+  provider: heroku
+  app: egcdecide1530
+  strategy: git
+  api_key: $HEROKU_AUTH_TOKEN
 notifications:
   email:
     recipients:
